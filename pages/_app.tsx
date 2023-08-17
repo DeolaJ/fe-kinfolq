@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" type="image/jpg" href="/logo.jpg" />
 			</Head>
 			<ChakraProvider theme={theme}>
 				<AnimatePresence mode="wait">
