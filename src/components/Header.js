@@ -37,8 +37,8 @@ function Header({ ...props }) {
 	return (
 		<Flex
 			width="100%"
-			px={{ base: "4", md: "8" }}
-			py={{ base: "4", md: "5" }}
+			px={{ base: "4", md: "12" }}
+			py={{ base: "3", md: "5" }}
 			justify="space-between"
 			alignItems="center"
 			bgColor="brand.black.500"
@@ -92,7 +92,7 @@ function DesktopMenu() {
 				mx={0.5}
 				borderColor="brand.gray.500"
 				borderWidth="0.5px"
-				height={20}
+				height={6}
 			/>
 
 			<ChakraNextLink href="/buy-tickets">
