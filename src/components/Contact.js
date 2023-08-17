@@ -25,7 +25,7 @@ function Contact({ ...props }) {
 					placeContent={{ base: "flex-start", md: "flex-start" }}
 				>
 					<Text
-						fontSize={{ base: "4xl", md: "6xl" }}
+						fontSize={{ base: "4xl", md: "5xl", lg: "6xl" }}
 						fontWeight={700}
 						lineHeight="short"
 						flexBasis="50%"
@@ -42,7 +42,11 @@ function Contact({ ...props }) {
 						{contactInfo?.map((info) => (
 							<GridItem
 								key={info}
-								fontSize={{ base: "md", sm: "lg", md: "2xl" }}
+								fontSize={{
+									base: "md",
+									sm: "lg",
+									lg: "2xl",
+								}}
 								fontWeight={700}
 							>
 								{info}

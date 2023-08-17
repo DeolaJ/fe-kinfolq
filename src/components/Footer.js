@@ -18,7 +18,8 @@ function Footer({ ...props }) {
 
 	return (
 		<Flex
-			py={{ base: "4", md: "12" }}
+			py={{ base: "4", md: "10" }}
+			pb={{ base: "4", md: "6" }}
 			px={{ base: "4", md: "12" }}
 			w="100%"
 			{...props}
